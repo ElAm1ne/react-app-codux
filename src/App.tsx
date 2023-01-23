@@ -4,7 +4,6 @@ import { Label } from './components/label/label';
 import { SubmitButton } from './components/submit-button/submit-button';
 import { FormRow } from './components/form-row/form-row';
 import { RiSendPlaneFill } from 'react-icons/ri';
-import SubmitButton_module from './components/submit-button/submit-button.module.scss';
 
 function App() {
     function handleOnSubmit(event: React.SyntheticEvent<HTMLFormElement>){
