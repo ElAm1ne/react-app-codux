@@ -3,5 +3,5 @@ import { Label } from '../../../components/label/label';
 
 export default createBoard({
     name: 'Label',
-    Board: () => <Label>My Label</Label>
+    Board: () => <Label className="label">My Label</Label>,
 });
